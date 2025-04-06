@@ -24,3 +24,13 @@ Este plugin permite mostrar las reseñas de Google Places en las páginas de tie
 1. Obtén una API Key de Google Places desde la [Google Cloud Console](https://console.cloud.google.com/apis/credentials)
 2. Configura la API Key en el panel de administración del plugin
 3. Añade el siguiente shortcode donde quieras mostrar las reseñas:
+
+## Autor
+
+- **Nombre**: pmalave
+- **Sitio Web**: https://avanzafibra.com
+
+## Licencia
+
+Propietaria - Todos los derechos reservados
+

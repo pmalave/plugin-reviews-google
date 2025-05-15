@@ -1,0 +1,114 @@
+.gpr-container {
+    max-width: 800px;
+    margin: 2em auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.gpr-average-rating {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.gpr-rating-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.gpr-rating {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    display: block;
+}
+
+.gpr-stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.gpr-total-reviews {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.5em;
+}
+
+.gpr-reviews-list {
+    display: grid;
+    gap: 1.5em;
+}
+
+.gpr-review-item {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.gpr-reviewer {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.gpr-reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.gpr-reviewer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.gpr-author {
+    font-weight: 500;
+}
+
+.gpr-date {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.gpr-text {
+    color: #4a5568;
+    line-height: 1.5;
+    margin-top: 0.5em;
+}
+
+.gpr-error {
+    color: #e53e3e;
+    text-align: center;
+    padding: 1em;
+    background: #fff5f5;
+    border-radius: 4px;
+}
+
+.gpr-star {
+    color: #356eb5;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+.gpr-average-rating .gpr-star {
+    font-size: 1.8em;
+}
+
+.gpr-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+@media (min-width: 768px) {
+    .gpr-reviews-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
